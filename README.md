@@ -1,4 +1,3 @@
-# first-task
-This is my first task 
+print('hello world')
 
-Danes je lep sončen dan!
+
