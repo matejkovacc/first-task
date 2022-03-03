@@ -1,0 +1,52 @@
+[33mcommit 6199e1efb8f609c840c504c2689afd26aad950b3[m[33m ([m[1;36mHEAD -> [m[1;32mcheatsheet[m[33m, [m[1;31morigin/hungry[m[33m, [m[1;31morigin/cheatsheet[m[33m)[m
+Author: matejkovacc <matej.kovack@gmail.com>
+Date:   Sun Feb 27 18:43:40 2022 +0100
+
+    markdown
+
+[1mdiff --git a/README.md b/README.md[m
+[1mindex 456b6bb..90d85ce 100644[m
+[1m--- a/README.md[m
+[1m+++ b/README.md[m
+[36m@@ -1 +1,39 @@[m
+[31m-Kaj sem jedel?[m
+\ No newline at end of file[m
+[32m+[m[32m# **SETUP**[m[41m [m
+[32m+[m[32m```[m
+[32m+[m[32mgit config --global user.name "[firstname lastname]"[m
+[32m+[m[32mgit config --global user.email [valid-email][m
+[32m+[m[32m```[m
+[32m+[m[32m****[m
+[32m+[m[32m# **SETUP AND INIT**[m
+[32m+[m[32m```[m
+[32m+[m[32mgit init[m
+[32m+[m[32mgit clone [URL][m
+[32m+[m[32m```[m
+[32m+[m[32m****[m
+[32m+[m[32m# **STAGE AND SNAPSHOT**[m
+[32m+[m[32m```[m
+[32m+[m[32mgit  status[m
+[32m+[m[32mgit add [file][m
+[32m+[m[32mgit commit -m [descriptive message][m
+[32m+[m[32m```[m
+[32m+[m[32m****[m
+[32m+[m[32m# **BRANCH AND MERGE**[m
+[32m+[m[32m```[m
+[32m+[m[32mgit branch[m
+[32m+[m[32mgit branch [branch-name][m
+[32m+[m[32mgit checkout[m
+[32m+[m[32mgit log[m
+[32m+[m[32mgit merge [branch][m
+[32m+[m[32m```[m
+[32m+[m[32m****[m
+[32m+[m[32m# **SHARE AND UPDATE**[m
+[32m+[m[32m```[m
+[32m+[m[32mgit merge[m
+[32m+[m[32mgit push[m
+[32m+[m[32mgit pull[m
+[32m+[m[32mgit push --set upstream origin[m
+[32m+[m[32m```[m
+[32m+[m[32m****[m
+[41m+[m
+[41m+[m
+[41m+[m
