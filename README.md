@@ -227,6 +227,8 @@ git describe
 ```
 + finds the most recent tag reachable from a commit
 
+# **OTHERS**
+
 ```
 git reset --hard o/main
 ```
@@ -236,13 +238,14 @@ git checkout -b feature C2
 
 
 
+
+
+``` 
+git push origin :foo
 ```
-git push origin main:newBranch
-```
++ **:** conect source and destination 
 
 ```
-git fetch origin foo:main 
-git push origin :foo
 git fetch origin :bar
 git pull origin main:side
 ```
